@@ -4,11 +4,11 @@ import pylab as pl
 import numpy as np
 import wget
 
-#----------------- Downloading Data ---------------
+#----------------- Downloading Data ----------------
 #url = 'https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv'
 #FuelConsumptionData = wget.download(url)
 
-#---------------- Reading data --------------------
+#---------------- Reading data ---------------------
 df = pd.read_csv('FuelConsumptionCo2.csv')
 #----- print all columns
 pd.set_option('display.max_columns', None)
